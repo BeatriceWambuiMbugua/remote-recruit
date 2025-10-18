@@ -3,7 +3,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { FeatureHighlight } from "./feature-highligt";
 const GlobalReach = () => {
   return (
-    <div className=" flex py-[100px] px-44 gap-28">
+    <div className=" flex py-[100px] px-44 gap-28 max-md:flex-col max-md:px-6 max-md:py-12 max-md:gap-12">
       <div className="grid md:grid-cols-2 grid-cols-1 gap-28 justify-center items-center">
         <FeatureHighlight
           badgeText="Global Reach"
