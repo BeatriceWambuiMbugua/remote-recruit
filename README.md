@@ -96,7 +96,7 @@ src/
 
 1. **Clone the repository**
    ```bash
-   git clone <https://github.com/BeatriceWambuiMbugua/remote-recruit>
+   git clone https://github.com/BeatriceWambuiMbugua/remote-recruit
    cd remote-recruit
    ```
 
