@@ -12,7 +12,7 @@ const GlobalReach = () => {
           <h1 className="text-[#11142D] text-4xl font-medium leading-14">
             The First Fully Global Job Board, Anywhere, Ever
           </h1>
-          <p className="text-[#11142DA4] text-lg leading-8">
+          <p className="text-[#11142DA4] text-lg leading-9">
             RemoteRecruit connects candidates with opportunities around the
             world. With today’s remote-first workforce, you need to be able to
             find the best jobs and the best people for them, wherever they may
