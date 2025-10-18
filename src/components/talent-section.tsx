@@ -7,7 +7,7 @@ import { Play } from "lucide-react";
 
 const TalentSection = () => {
   return (
-    <div className=" flex  py-[100px] px-44 gap-28">
+    <div className=" flex  py-[100px] px-44 gap-28 max-md:flex-col max-md:px-6 max-md:py-12 max-md:gap-12">
       <div className="grid md:grid-cols-2 grid-cols-1 gap-28 justify-center items-center">
         <FeatureHighlight
           badgeText="Custom Profile"
@@ -85,8 +85,8 @@ const TalentSection = () => {
                   </div>
                 </div>
 
-                {/* Bottom Profile (floating on the right side) */}
-                <div className="absolute bottom-0 flex flex-wrap gap-3">
+                
+                <div className="absolute bottom-0 flex-wrap gap-3 grid grid-cols-3 justify-center">
                   {developerSkills.map((skill) => (
                     <Badge
                       key={skill.id}
