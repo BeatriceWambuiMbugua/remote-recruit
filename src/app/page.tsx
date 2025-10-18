@@ -2,6 +2,7 @@ import GlobalReach from "@/components/global-reach";
 import HeroSection from "@/components/hero-section";
 import Navbar from "@/components/navbar";
 import PricingSection from "@/components/pricing-section";
+import TalentSection from "@/components/talent-section";
 
 
 
@@ -12,6 +13,7 @@ export default function Home() {
       <HeroSection />
       <GlobalReach/>
       <PricingSection/>
+      <TalentSection/>
     </div>
   );
 }
