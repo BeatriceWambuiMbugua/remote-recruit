@@ -52,8 +52,7 @@ const GlobalReach = () => {
               <div className="absolute w-full h-full">
                 {/* Top Profile (floating on the left side) */}
                 <div
-                  className="absolute -left-[67px] top-20 flex items-center bg-white rounded-full border border-[#F6F4FF] shadow-[14px_13px_20px_0px_#8781F51C]
- py-3 px-6 w-[360px] z-10"
+                  className="absolute -left-[67px] top-20 flex items-center bg-white rounded-full border border-[#F6F4FF] shadow-[14px_13px_20px_0px_#8781F51C] p-2 w-[360px] z-10"
                 >
                   <div className="inline-block rounded-full p-[2px] bg-gradient-to-br from-yellow-200 to-yellow-400">
                     <Avatar className="w-12 h-12 rounded-full bg-white">
@@ -75,7 +74,7 @@ const GlobalReach = () => {
                 </div>
 
                 {/* Bottom Profile (floating on the right side) */}
-                <div className="absolute -right-[67px] bottom-10 flex items-center bg-white rounded-full border border-[#F6F4FF] shadow-[14px_13px_20px_0px_#8781F51C] py-3 px-6 w-[360px] z-10">
+                <div className="absolute -right-[67px] bottom-10 flex items-center bg-white rounded-full border border-[#F6F4FF] shadow-[14px_13px_20px_0px_#8781F51C] p-2 w-[360px] z-10">
                   <div className="inline-block rounded-full p-[2px] bg-gradient-to-br from-yellow-200 to-yellow-400">
                     <Avatar className="w-12 h-12 rounded-full bg-white">
                       <AvatarImage
