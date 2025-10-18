@@ -19,7 +19,6 @@ const PricingSection = () => {
             <p className="uppercase text-gray-400 font-bold text-xs mt-5">
               Features
             </p>
-
             <ul className="space-y-4 mt-3">
               {premiumPlanFeatures.map((feature) => (
                 <li key={feature.id} className="flex items-center gap-4">
