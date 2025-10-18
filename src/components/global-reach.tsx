@@ -1,25 +1,20 @@
 import Image from "next/image";
-import { Button } from "./ui/button";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
+import { FeatureHighlight } from "./feature-highligt";
 const GlobalReach = () => {
   return (
-    <div className=" flex justify-center items-center py-[100px] px-44 gap-28">
-      <div className="grid md:grid-cols-2 grid-cols-1 gap-28">
-        <div className="space-y-9">
-          <Button className="bg-[#C2EEFF] hover:bg-[#C2EEFF]/90 text-[#11142D] text-xs rounded-2xl">
-            Global Reach
-          </Button>
-          <h1 className="text-[#11142D] text-4xl font-medium leading-14">
-            The First Fully Global Job Board, Anywhere, Ever
-          </h1>
-          <p className="text-[#11142DA4] text-lg leading-9">
-            RemoteRecruit connects candidates with opportunities around the
+    <div className=" flex py-[100px] px-44 gap-28">
+      <div className="grid md:grid-cols-2 grid-cols-1 gap-28 justify-center items-center">
+        <FeatureHighlight
+          badgeText="Global Reach"
+          title="The First Fully Global Job Board, Anywhere, Ever"
+          description="RemoteRecruit connects candidates with opportunities around the
             world. With today’s remote-first workforce, you need to be able to
             find the best jobs and the best people for them, wherever they may
-            be.
-          </p>
-        </div>
-        <div className="relative flex justify-center items-center py-16 px-6">
+            be."
+        />
+
+        <div className="relative flex justify-center items-center">
           {/* Main UI Card */}
           <div className="relative z-10 w-full max-w-4xl bg-white border border-[#F6F4FF] rounded-3xl shadow-[0_20px_40px_#3159D31F] h-[500px] flex flex-col p-5 overflow-visible">
             {/* Top Section: Image (1/3 of card) */}
@@ -51,9 +46,7 @@ const GlobalReach = () => {
               {/* Floating Profile Cards */}
               <div className="absolute w-full h-full">
                 {/* Top Profile (floating on the left side) */}
-                <div
-                  className="absolute -left-[67px] top-20 flex items-center bg-white rounded-full border border-[#F6F4FF] shadow-[14px_13px_20px_0px_#8781F51C] p-2 w-[360px] z-10"
-                >
+                <div className="absolute -left-[67px] top-20 flex items-center bg-white rounded-full border border-[#F6F4FF] shadow-[14px_13px_20px_0px_#8781F51C] p-2 w-[360px] z-10">
                   <div className="inline-block rounded-full p-[2px] bg-gradient-to-br from-yellow-200 to-yellow-400">
                     <Avatar className="w-12 h-12 rounded-full bg-white">
                       <AvatarImage
