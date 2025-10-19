@@ -13,8 +13,9 @@ This is a technical assessment project for RemoteRecruit, showcasing the recreat
 ## Features
 
 - **Responsive Design**: Fully responsive layout optimized for desktop and mobile devices
-- **Modern UI Components**: Built with Radix UI primitives and custom components
+- **Modern UI Components**: Built with shadcn/ui and Radix UI primitives
 - **Interactive Elements**: Floating cards, hover effects, and smooth animations
+- **Scroll Animations**: AOS (Animate On Scroll) library for engaging user interactions
 - **Component Architecture**: Modular, reusable components with TypeScript
 - **Performance Optimized**: Built with Next.js 15 and React 19 for optimal performance
 
@@ -38,12 +39,17 @@ This is a technical assessment project for RemoteRecruit, showcasing the recreat
 - **Turbopack** - Fast bundler for development
 - **PostCSS** - CSS processing
 
+### Animation & Effects
+- **AOS (Animate On Scroll)** - Scroll-triggered animations
+- **Tailwind CSS Animations** - Built-in animation utilities
+- **Custom CSS Transitions** - Smooth hover and interaction effects
+
 ##  Project Structure
 
 ```
 src/
 ├── app/                    # Next.js App Router
-│   ├── layout.tsx         # Root layout
+│   ├── layout.tsx         # Root layout with AOS provider
 │   ├── page.tsx          # Home page
 │   └── globals.css       # Global styles
 ├── components/            # React components
@@ -55,8 +61,17 @@ src/
 │   ├── hero-section.tsx  # Hero banner
 │   ├── global-reach.tsx  # Global reach feature
 │   ├── pricing-section.tsx # Pricing plans
+│   ├── pricing-card.tsx  # Individual pricing card
 │   ├── talent-section.tsx # Talent showcase
+│   ├── call-to-action.tsx # Call to action section
+│   ├── footer.tsx         # Footer component
+│   ├── faq-section.tsx   # FAQ section
+│   ├── scroll-to-top.tsx # Scroll to top button
 │   └── feature-highligt.tsx # Reusable feature component
+├── providers/            # Context providers
+│   └── AOSProvider.tsx   # AOS animation provider
+├── data/                 # Data and constants
+│   └── constants.ts      # Application constants
 ├── hooks/                # Custom React hooks
 │   └── use-mobile.ts     # Mobile detection hook
 └── lib/                  # Utility functions
@@ -145,6 +160,12 @@ pnpm lint         # Run ESLint
 - Consistent design system with CSS variables
 - Responsive typography scaling
 
+### Animation System
+- **AOS Integration**: Scroll-triggered animations for enhanced user experience
+- **Component Animations**: Individual elements animate on scroll with custom timing
+- **Smooth Transitions**: Hover effects and state changes with CSS transitions
+- **Performance Optimized**: Animations use hardware acceleration for smooth performance
+
 ### Performance Optimizations
 - Next.js Image optimization
 - Component lazy loading
@@ -202,6 +223,11 @@ pnpm lint         # Run ESLint
 - `lucide-react` - Icon library
 - `class-variance-authority` - Component variants
 - `tailwind-merge` - Class merging
+
+### Animation Dependencies
+- `aos` - Animate On Scroll library
+- `react-aos` - React wrapper for AOS
+- Custom animation utilities and providers
 
 ## Known Limitations & Challenges
 
