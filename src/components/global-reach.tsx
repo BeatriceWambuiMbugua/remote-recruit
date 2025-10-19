@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import { FeatureHighlight } from "./feature-highligt";
+import { FeatureHighlight } from "./feature-highlight";
 const GlobalReach = () => {
   return (
     <div className=" flex py-[100px] px-44 gap-28 max-md:flex-col max-md:px-6 max-md:py-12 max-md:gap-12">

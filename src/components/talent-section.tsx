@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
-import { FeatureHighlight } from "./feature-highligt";
+import { FeatureHighlight } from "./feature-highlight";
 import { developerSkills } from "@/data/constants";
 import { Badge } from "./ui/badge";
 import { Play } from "lucide-react";

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { FeatureHighlight } from "./feature-highligt";
+import { FeatureHighlight } from "./feature-highlight";
 import { premiumPlanFeatures } from "@/data/constants";
 import { Check } from "lucide-react";
 const PricingSection = () => {
