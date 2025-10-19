@@ -36,6 +36,7 @@ const Footer = () => {
                 href={platform.url}
                 className="flex items-center gap-2 px-3 py-3 rounded-full transition-all duration-300 hover:scale-105 hover:shadow-[0_0_15px_rgba(235,237,255,0.3)]"
                 style={platform.style}
+                aria-label={platform.name}
               >
                 <Icon size={20} strokeWidth={1.5} />
               </Link>
