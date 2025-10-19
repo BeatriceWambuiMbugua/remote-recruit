@@ -7,7 +7,7 @@ import { Play } from "lucide-react";
 
 const TalentSection = () => {
   return (
-    <div className=" flex  py-[100px] px-44 gap-28 max-md:flex-col max-md:px-6 max-md:py-12 max-md:gap-12">
+    <div className=" flex  py-[100px] px-44 gap-28 max-md:flex-col max-md:px-6 max-md:py-12 max-md:gap-12" data-aos="slide-up" data-aos-duration="2000">
       <div className="grid md:grid-cols-2 grid-cols-1 gap-28 justify-center items-center">
         <FeatureHighlight
           badgeText="Custom Profile"
