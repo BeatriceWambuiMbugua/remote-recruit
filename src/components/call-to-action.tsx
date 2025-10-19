@@ -8,10 +8,7 @@ const CallToAction = () => {
       <div className="absolute -translate-x-96 top-[5%] w-14 h-14 rounded-full bg-[linear-gradient(132.56deg,#FFED43_5.63%,#F29939_106.18%)] shadow-lg shadow-[#F29939]/30 z-20" />
       <div className="relative grid grid-cols-1 md:grid-cols-2 items-center max-w-7xl w-full h-full">
         {/* Left section */}
-
         <div className="relative flex justify-start h-full max-md:order-2">
-          {/* Decorative dot - above image */}
-
           <Image
             src="/assets/find-work.png"
             alt="Find work"
@@ -31,11 +28,11 @@ const CallToAction = () => {
             Click below to get set up super quickly and find help now!
           </p>
 
-          <Button className="flex items-center gap-3 bg-sky-200 hover:bg-sky-300 text-[#1E3E85] rounded-full px-2 py-8 text-lg font-medium">
+          <Button className="flex items-center gap-3 bg-sky-200 hover:bg-sky-300 text-[#1E3E85] rounded-full pl-2 pr-4 py-8 text-lg font-medium">
             <div className="p-4 rounded-full bg-sky-600 flex items-center justify-center">
               <ArrowRight className="w-6 h-6 text-white" />
             </div>
-            <span>Get started</span>
+            Get started
           </Button>
 
           {/* Decorative dot - below text */}
