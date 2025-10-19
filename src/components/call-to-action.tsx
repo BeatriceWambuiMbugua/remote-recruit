@@ -4,12 +4,12 @@ import Image from "next/image";
 
 const CallToAction = () => {
   return (
-    <div className="relative bg-[url('/assets/background-image.svg')] bg-cover bg-center min-h-screen px-4 flex flex-col justify-center items-center text-center bg-no-repeat overflow-hidden max-md:flex-col max-md:px-6 max-md:py-12 max-md:gap-12">
+    <div className="relative bg-[url('/assets/background-image.svg')] bg-cover bg-center min-h-screen px-4 flex flex-col justify-center items-center text-center bg-no-repeat overflow-hidden max-md:flex-col max-md:px-6 max-md:py-2 max-md:gap-12">
         
       <div className="relative grid grid-cols-1 md:grid-cols-2 items-center max-w-7xl w-full h-full">
         {/* Left section */}
        
-         <div className="relative flex justify-center items-end h-full">
+         <div className="relative flex justify-center items-end h-full max-md:order-2">
             {/* Decorative dot - above image */}
             <div className="absolute top-[5%] w-14 h-14 -translate-x-[50%] rounded-full bg-[linear-gradient(132.56deg,#FFED43_5.63%,#F29939_106.18%)] shadow-lg shadow-[#F29939]/30 z-20" />
             
@@ -25,7 +25,7 @@ const CallToAction = () => {
         </div>
 
         {/* Right section */}
-        <div className="relative text-left">
+        <div className="relative text-left max-md:order-1">
           <p className="text-base text-blue-950 mb-2">Are you ready?</p>
           <h1 className="text-5xl font-semibold mb-8 max-w-lg text-blue-950 leading-[1.2]">
             Help is only a few clicks away!
