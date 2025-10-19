@@ -89,3 +89,76 @@ export interface Skill {
     },
   ];
   
+  export const pricingData = [
+    {
+      planName: "Free",
+      price: "",
+      period: "Basic",
+      features: [
+        {
+          text: "1 Active Job",
+          available: true,
+        },
+        {
+          text: "Basic List Placement",
+          available: true,
+        },
+        {
+          text: "Unlimited Job Applicants",
+          available: false, // ❌ greyed out
+        },
+        {
+          text: "Invite Anyone to Apply to Your Jobs",
+          available: false, // ❌ greyed out
+        },
+      ],
+    },
+    {
+      planName: "Premium",
+      price: "$79.99",
+      period: "per month",
+      features: [
+        {
+          text: "Unlimited Job Posts",
+          available: true,
+        },
+        {
+          text: "Instant Job Post Approval",
+          available: true,
+        },
+        {
+          text: "Premium List Placement",
+          available: true,
+        },
+        {
+          text: "Unlimited Job Applicants",
+          available: true,
+        },
+      ],
+    },
+  ];
+  
+  
+  export const faqData = [
+    {
+      question: "Do I have to sign a long-term contract?",
+      answer:
+        "Actually beard single-origin coffee, twee 90's PBR Echo Park sartorial try-hard freegan Portland ennui. Selvage jean shorts 90's, Vice American Apparel try-hard food truck Shoreditch fap lomo Wes Anderson. Art party Thundercats High Life Tumblr",
+    },
+    {
+      question: "Can I pay for a whole year?",
+      answer:
+        "Actually beard single-origin coffee, twee 90's PBR Echo Park sartorial try-hard freegan Portland ennui. Selvage jean shorts 90's, Vice American Apparel try-hard food truck Shoreditch fap lomo Wes Anderson. Art party Thundercats High Life Tumblr",
+    },
+    {
+      question: "What if I need help?",
+      answer:
+        "Actually beard single-origin coffee, twee 90's PBR Echo Park sartorial try-hard freegan Portland ennui. Selvage jean shorts 90's, Vice American Apparel try-hard food truck Shoreditch fap lomo Wes Anderson. Art party Thundercats High Life Tumblr",
+    },
+    {
+      question: "View more questions",
+      answer: "", // This can be empty if clicking opens a modal or expands more FAQs
+      isViewMore: true, // optional flag to handle special behavior
+    },
+  ];
+  
