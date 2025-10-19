@@ -22,7 +22,7 @@ export interface Skill {
     { id: 2, name: "Javascript" },
     { id: 3, name: "Front End" },
     { id: 4, name: "Back End" },
-    { id: 5, name: "IOS Development" },
+    { id: 5, name: "IOS Dev" },
     { id: 6, name: "+12", isMore: true },
   ];
   

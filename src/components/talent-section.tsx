@@ -86,7 +86,7 @@ const TalentSection = () => {
                 </div>
 
                 
-                <div className="absolute bottom-0 flex-wrap gap-3 grid grid-cols-3 justify-center">
+                <div className="absolute bottom-0 flex-wrap gap-4 grid grid-cols-3 justify-center">
                   {developerSkills.map((skill) => (
                     <Badge
                       key={skill.id}

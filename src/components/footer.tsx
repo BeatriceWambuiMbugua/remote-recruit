@@ -8,7 +8,7 @@ import { PricingCard } from "./pricing-card";
 
 const Footer = () => {
   return (
-    <div className="relative mt-64 max-md:mt-[600px]" data-aos="fade-up" data-aos-duration="3000">
+    <div className="relative mt-64 max-md:mt-[600px]" data-aos="fade-up" data-aos-duration="2000">
     {/* Floating Section (heading + cards) */}
     <div className=" max-sm:-translate-y-2/3 absolute z-20 w-full -translate-y-1/2 max-w-7xl mx-auto px-4 flex flex-col items-center">
       <h2 className="text-3xl md:text-4xl font-bold text-black mb-12 text-center">

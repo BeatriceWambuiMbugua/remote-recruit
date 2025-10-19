@@ -49,7 +49,7 @@ export const PricingCard = ({
               {planName}
             </h2>
           )}
-          <p className=" text-2xl md:text-3xl font-bold bg-gradient-to-r from-[#52B4DA] to-[#1E3E85] bg-clip-text text-transparent">
+          <p className=" text-xl md:text-3xl font-bold bg-gradient-to-r from-[#52B4DA] to-[#1E3E85] bg-clip-text text-transparent">
             {price}
           </p>
           <p className="text-gray-400 text-base font-medium">{period}</p>
@@ -73,7 +73,7 @@ export const PricingCard = ({
                   <X className="w-4 h-4 text-slate-50" />
                 </div>
               )}
-              <span className="font-medium text-base">{feature.text}</span>
+              <span className="font-medium text-base max-md:text-sm max-sm:text-xs">{feature.text}</span>
             </li>
           ))}
         </ul>
