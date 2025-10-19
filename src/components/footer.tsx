@@ -6,20 +6,23 @@ import { PricingCard } from "./pricing-card";
 
 const Footer = () => {
   return (
-    <div className="relative bg-[url('/assets/footer-background.png')] bg-cover bg-center h-screen px-4 flex flex-col items-center bg-no-repeat overflow-hidden">
-      {/* Heading */}
-      <h2 className="text-3xl md:text-4xl font-bold text-black mb-12 mt-16 text-center">
+    <div className="relative mt-64">
+    {/* Floating Section (heading + cards) */}
+    <div className="absolute z-20 w-full -translate-y-1/2 max-w-7xl mx-auto px-4 flex flex-col items-center">
+      <h2 className="text-3xl md:text-4xl font-bold text-black mb-12 text-center">
         Help Is One Click Away
       </h2>
-
-      {/* Pricing Cards Section */}
-      <section className="relative flex items-center justify-center gap-8 -mt-40 z-10 max-md:flex-col max-md:gap-6">
+  
+      <section className="flex items-center justify-center gap-8 max-md:flex-col max-md:gap-6 w-full">
         {pricingData.map((plan) => (
           <PricingCard key={plan.planName} {...plan} />
         ))}
       </section>
-
-      {/* Footer Content */}
+    </div>
+  
+    {/* Footer Background */}
+    <div className="relative bg-[url('/assets/footer-background.png')] bg-cover bg-center px-4 pt-64 flex flex-col items-center bg-no-repeat overflow-hidden">
+      {/* Footer content */}
       <div className="flex justify-between items-center w-full max-w-7xl mt-32 max-md:flex-col max-md:gap-6">
         <Image src="/logo.webp" alt="logo" width={123} height={50} />
         <div className="flex flex-wrap gap-4 justify-center items-center">
@@ -38,16 +41,14 @@ const Footer = () => {
           })}
         </div>
       </div>
-
+  
       <Separator className="my-8 w-full max-w-7xl bg-gray-400" />
-
-      <Image
-        src="/assets/remote-recruit-sign.svg"
-        alt="logo"
-        width={50}
-        height={50}
-      />
+  
+      <Image src="/assets/remote-recruit-sign.svg" alt="logo" width={50} height={50} className="object-contain pb-4" />
     </div>
+  </div>
+  
+  
   );
 };
 
