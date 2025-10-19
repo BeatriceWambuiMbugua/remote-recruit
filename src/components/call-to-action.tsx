@@ -10,10 +10,8 @@ const CallToAction = () => {
         {/* Left section */}
        
          <div className="relative flex justify-center items-end h-full">
-           {/* Actual image positioned to appear "cut" into the section */}
             {/* Decorative dot - above image */}
-
-            <div className="absolute top-[20%] w-14 h-14 -translate-x-[50%] rounded-full bg-[linear-gradient(132.56deg,#FFED43_5.63%,#F29939_106.18%)] shadow-lg shadow-[#F29939]/30 z-20" />
+            <div className="absolute top-[5%] w-14 h-14 -translate-x-[50%] rounded-full bg-[linear-gradient(132.56deg,#FFED43_5.63%,#F29939_106.18%)] shadow-lg shadow-[#F29939]/30 z-20" />
             
            <Image
              src="/assets/find-work.png"
