@@ -26,17 +26,17 @@ export const PricingCard = ({
     >
       {/* Premium Badge */}
       {isPremium && (
-        <div className="absolute top-4 left-[22%] -translate-x-1/2 bg-gradient-to-r from-cyan-300 to-cyan-400 text-white text-sm font-semibold px-4 py-1.5 rounded-full shadow-md flex items-center justify-center">
-            <div className="bg-white rounded-full w-5 h-5 flex items-center justify-center mr-2">
+        <div className="absolute top-4 left-[22%] -translate-x-1/2 bg-[#C2EEFF] text-[#11142D] text-sm font-semibold px-1 py-1 rounded-full shadow-md flex items-center justify-center">
+            <div className="bg-white rounded-full w-9 h-9 flex items-center justify-center mr-2">
                 <Image
                   src="/assets/premium-icon.png"
                   alt="Premium Star"
                   width={16}
-                  height={16}
-                  className="w-3 h-3 object-contain"
+                  height={27}
+                  className="w-4 h-7 object-contain"
                 />
             </div>
-          <span>Premium </span>
+          <span className="pr-1">Premium </span>
         </div>
       )}
 
