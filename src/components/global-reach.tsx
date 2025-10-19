@@ -52,6 +52,7 @@ const GlobalReach = () => {
                       <AvatarImage
                         src="/assets/placeholder-image.png"
                         className="object-cover rounded-full"
+                        alt="Profile Image"
                       />
                       <AvatarFallback>Gru</AvatarFallback>
                     </Avatar>
@@ -73,6 +74,7 @@ const GlobalReach = () => {
                       <AvatarImage
                         src="/assets/placeholder-image.png"
                         className="object-cover rounded-full"
+                        alt="Profile Image"
                       />
                       <AvatarFallback>Gru</AvatarFallback>
                     </Avatar>
