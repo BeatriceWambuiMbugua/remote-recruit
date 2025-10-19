@@ -1,3 +1,5 @@
+import { Facebook, Instagram, Linkedin, MessageSquareMore, Music2, Twitter } from "lucide-react";
+
 export const premiumPlanFeatures = [
     { id: 1, text: "Up to 25 active job posts" },
     { id: 2, text: "Premium Placement & Visibility" },
@@ -22,5 +24,68 @@ export interface Skill {
     { id: 4, name: "Back End" },
     { id: 5, name: "IOS Development" },
     { id: 6, name: "+12", isMore: true },
+  ];
+  
+  export const socialMediaData = [
+    {
+      name: "Facebook",
+      icon: Facebook,
+      url: "#",
+      style: {
+        background:
+          "linear-gradient(135deg, rgba(235, 237, 255, 0.15) 0%, rgba(173, 184, 255, 0.15) 100%)",
+        color: "#FFFFFF",
+      },
+    },
+    {
+      name: "Instagram",
+      icon: Instagram,
+      url: "#",
+      style: {
+        background:
+          "linear-gradient(135deg, rgba(235, 237, 255, 0.15) 0%, rgba(173, 184, 255, 0.15) 100%)",
+        color: "#FFFFFF",
+      },
+    },
+    {
+      name: "Snapchat",
+      icon: MessageSquareMore,
+      url: "#",
+      style: {
+        background:
+          "linear-gradient(135deg, rgba(235, 237, 255, 0.15) 0%, rgba(173, 184, 255, 0.15) 100%)",
+        color: "#FFFFFF",
+      },
+    },
+    {
+      name: "TikTok",
+      icon: Music2, // lucide-react doesn't have TikTok icon; using Music2 as a symbolic replacement
+      url: "#",
+      style: {
+        background:
+          "linear-gradient(135deg, rgba(235, 237, 255, 0.15) 0%, rgba(173, 184, 255, 0.15) 100%)",
+        color: "#FFFFFF",
+      },
+    },
+    {
+      name: "Twitter",
+      icon: Twitter,
+      url: "#",
+      style: {
+        background:
+          "linear-gradient(135deg, rgba(235, 237, 255, 0.15) 0%, rgba(173, 184, 255, 0.15) 100%)",
+        color: "#FFFFFF",
+      },
+    },
+    {
+      name: "LinkedIn",
+      icon: Linkedin,
+      url: "#",
+      style: {
+        background:
+          "linear-gradient(135deg, rgba(235, 237, 255, 0.15) 0%, rgba(173, 184, 255, 0.15) 100%)",
+        color: "#FFFFFF",
+      },
+    },
   ];
   
