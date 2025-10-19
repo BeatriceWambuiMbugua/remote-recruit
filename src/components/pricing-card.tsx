@@ -43,16 +43,16 @@ export const PricingCard = ({
       {/* Price + Features Container */}
       <div className="grid grid-cols-5 gap-6 justify-center items-stretch w-full">
         {/* Price Section */}
-        <div className="col-span-2 w-full bg-[#ECF2FF] p-6 rounded-xl text-center flex flex-col justify-center h-full">
+        <div className="col-span-2 w-full bg-[#ECF2FF] max-md:p-2 p-6 rounded-xl text-center flex flex-col justify-center h-full">
           {!isPremium && (
-            <h2 className="text-2xl font-semibold text-[#1E3E85] mb-2">
+            <h2 className="max-sm:text-lg text-2xl font-semibold text-[#1E3E85] mb-2">
               {planName}
             </h2>
           )}
-          <p className=" text-xl md:text-3xl font-bold bg-gradient-to-r from-[#52B4DA] to-[#1E3E85] bg-clip-text text-transparent">
+          <p className=" text-lg md:text-3xl font-bold bg-gradient-to-r from-[#52B4DA] to-[#1E3E85] bg-clip-text text-transparent">
             {price}
           </p>
-          <p className="text-gray-400 text-base font-medium">{period}</p>
+          <p className="text-gray-400 text-base font-medium max-sm:text-sm">{period}</p>
         </div>
 
         {/* Features */}
