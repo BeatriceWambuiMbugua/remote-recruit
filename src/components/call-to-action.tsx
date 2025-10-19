@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const CallToAction = () => {
   return (
-    <div className="relative bg-[url('/assets/background-image.svg')] bg-cover bg-center min-h-screen px-4 flex flex-col justify-center items-center text-center overflow-hidden max-md:flex-col max-md:px-6 max-md:py-2 max-md:gap-12">
+    <div className="relative bg-[url('/assets/background-image.svg')] bg-cover bg-center min-h-screen px-4 flex flex-col justify-center items-center text-center overflow-hidden max-md:flex-col max-md:px-6 max-md:py-2 max-md:gap-12" data-aos="slide-up" data-aos-duration="1000">
       <div className="absolute -translate-x-96 top-[5%] w-14 h-14 rounded-full bg-[linear-gradient(132.56deg,#FFED43_5.63%,#F29939_106.18%)] shadow-lg shadow-[#F29939]/30 z-20" />
       <div className="relative grid grid-cols-1 md:grid-cols-2 items-center max-w-7xl w-full h-full">
         {/* Left section */}
