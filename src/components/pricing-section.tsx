@@ -43,7 +43,7 @@ const PricingSection = () => {
             </div>
 
             {/* Decorative dot */}
-            <div className="absolute -top-0 -left-12 w-5 h-5 rounded-full bg-gradient-to-br from-[#52B4DA] to-[#1E3E85] shadow-lg shadow-[#1E3E85]/30"></div>
+            <div className="absolute -top-0  -left-8 md:-left-12 w-5 h-5 rounded-full bg-gradient-to-br from-[#52B4DA] to-[#1E3E85] shadow-lg shadow-[#1E3E85]/30"></div>
 
             {/* Bottom Section (2/3 of card) */}
             <div className="relative flex-1 flex flex-col justify-center items-center">
