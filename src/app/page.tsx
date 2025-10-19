@@ -1,4 +1,5 @@
 import CallToAction from "@/components/call-to-action";
+import FAQAccordion from "@/components/faq-section";
 import Footer from "@/components/footer";
 import GlobalReach from "@/components/global-reach";
 import HeroSection from "@/components/hero-section";
@@ -17,6 +18,7 @@ export default function Home() {
       <PricingSection/>
       <TalentSection/>
       <CallToAction/>
+      <FAQAccordion/>
       <Footer/>
     </div>
   );
