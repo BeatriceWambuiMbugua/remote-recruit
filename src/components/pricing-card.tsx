@@ -21,22 +21,22 @@ export const PricingCard = ({
 
   return (
     <div
-      className={`relative max-w-lg p-8 rounded-3xl border border-white/10 bg-white flex flex-col items-center shadow-[-15px_50px_150px_0px_#3159D31F]
+      className={`relative max-w-lg p-8 rounded-3xl border border-white/10 bg-white flex flex-col items-center shadow-[-15px_50px_150px_0px_#3159D31F] max-md:w-full max-sm:w-full
         ${isPremium ? "shadow-[0_0_60px_rgba(0,102,255,0.35)]" : ""}`}
     >
       {/* Premium Badge */}
       {isPremium && (
-        <div className="absolute top-4 left-[22%] -translate-x-1/2 bg-[#C2EEFF] text-[#11142D] text-sm font-semibold px-1 py-1 rounded-full shadow-md flex items-center justify-center">
-            <div className="bg-white rounded-full w-9 h-9 flex items-center justify-center mr-2">
+        <div className="absolute top-4 left-[22%] -translate-x-1/2 bg-gradient-to-r from-cyan-300 to-cyan-400 text-white text-sm font-semibold px-4 py-1.5 rounded-full shadow-md flex items-center justify-center">
+            <div className="bg-white rounded-full w-5 h-5 flex items-center justify-center mr-2">
                 <Image
                   src="/assets/premium-icon.png"
                   alt="Premium Star"
                   width={16}
-                  height={27}
-                  className="w-4 h-7 object-contain"
+                  height={16}
+                  className="w-3 h-3 object-contain"
                 />
             </div>
-          <span className="pr-1">Premium </span>
+          <span>Premium </span>
         </div>
       )}
 
