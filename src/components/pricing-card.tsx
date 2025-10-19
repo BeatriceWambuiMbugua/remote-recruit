@@ -73,7 +73,7 @@ export const PricingCard = ({
                   <X className="w-4 h-4 text-slate-50" />
                 </div>
               )}
-              <span className="font-medium text-base max-md:text-sm max-sm:text-xs">{feature.text}</span>
+              <span className="font-medium text-base max-md:text-sm">{feature.text}</span>
             </li>
           ))}
         </ul>
