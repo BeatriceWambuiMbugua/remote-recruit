@@ -3,7 +3,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "./ui/avatar";
 import { FeatureHighlight } from "./feature-highlight";
 const GlobalReach = () => {
   return (
-    <div className=" flex py-[100px] px-44 gap-28 max-md:flex-col max-md:px-6 max-md:py-12 max-md:gap-12">
+    <div className=" flex py-[100px] px-44 gap-28 max-md:flex-col max-md:px-6 max-md:py-12 max-md:gap-12" data-aos="fade-up" data-aos-duration="3000">
       <div className="grid md:grid-cols-2 grid-cols-1 gap-28 justify-center items-center">
         <FeatureHighlight
           badgeText="Global Reach"
@@ -46,7 +46,7 @@ const GlobalReach = () => {
               {/* Floating Profile Cards */}
               <div className="absolute w-full h-full">
                 {/* Top Profile (floating on the left side) */}
-                <div className="absolute -left-[67px] top-20 flex items-center bg-white rounded-full border border-[#F6F4FF] shadow-[14px_13px_20px_0px_#8781F51C] p-2 w-[360px] z-10">
+                <div className="absolute -left-[67px] top-20 flex items-center bg-white rounded-full border border-[#F6F4FF] shadow-[14px_13px_20px_0px_#8781F51C] p-2 w-[360px] max-md:w-[260px] z-10">
                   <div className="inline-block rounded-full p-[2px] bg-gradient-to-br from-yellow-200 to-yellow-400">
                     <Avatar className="w-12 h-12 rounded-full bg-white">
                       <AvatarImage
@@ -67,7 +67,7 @@ const GlobalReach = () => {
                 </div>
 
                 {/* Bottom Profile (floating on the right side) */}
-                <div className="absolute -right-[67px] bottom-10 flex items-center bg-white rounded-full border border-[#F6F4FF] shadow-[14px_13px_20px_0px_#8781F51C] p-2 w-[360px] z-10">
+                <div className="absolute -right-[67px] bottom-10 flex items-center bg-white rounded-full border border-[#F6F4FF] shadow-[14px_13px_20px_0px_#8781F51C] p-2 w-[360px] max-md:w-[260px] z-10">
                   <div className="inline-block rounded-full p-[2px] bg-gradient-to-br from-yellow-200 to-yellow-400">
                     <Avatar className="w-12 h-12 rounded-full bg-white">
                       <AvatarImage

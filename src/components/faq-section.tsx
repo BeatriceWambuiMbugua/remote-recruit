@@ -13,7 +13,7 @@ export default function FAQSection() {
   };
 
   return (
-    <div className="relative w-full max-w-5xl mx-auto py-20 px-4 min-h-screen">
+    <div className="relative w-full max-w-5xl mx-auto py-20 px-4 min-h-screen" data-aos="fade-up" data-aos-duration="3000">
       <h1 className="text-[#11142D] text-4xl font-medium mb-10 text-left">
         Common Questions
       </h1>

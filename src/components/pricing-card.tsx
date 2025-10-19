@@ -21,7 +21,7 @@ export const PricingCard = ({
 
   return (
     <div
-      className={`relative max-w-lg p-8 rounded-3xl border border-white/10 bg-white flex flex-col items-center shadow-[-15px_50px_150px_0px_#3159D31F]
+      className={`relative max-w-lg p-8 rounded-3xl border border-white/10 bg-white flex flex-col items-center shadow-[-15px_50px_150px_0px_#3159D31F] max-md:w-full max-sm:w-full
         ${isPremium ? "shadow-[0_0_60px_rgba(0,102,255,0.35)]" : ""}`}
     >
       {/* Premium Badge */}
@@ -49,7 +49,7 @@ export const PricingCard = ({
               {planName}
             </h2>
           )}
-          <p className="text-3xl font-bold bg-gradient-to-r from-[#52B4DA] to-[#1E3E85] bg-clip-text text-transparent">
+          <p className=" text-2xl md:text-3xl font-bold bg-gradient-to-r from-[#52B4DA] to-[#1E3E85] bg-clip-text text-transparent">
             {price}
           </p>
           <p className="text-gray-400 text-base font-medium">{period}</p>

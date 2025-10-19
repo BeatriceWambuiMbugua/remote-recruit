@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
+import ScrollToTop from "@/components/scroll-to-top";
+import 'aos/dist/aos.css';
+import { AOSProvider } from "@/providers/AOSProvider";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -19,11 +22,15 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="scroll-smooth">
       <body
         className={`${poppins.className} antialiased`}
       >
-        {children}
+        <AOSProvider>
+          {children}
+        <ScrollToTop />
+        </AOSProvider>
+        
       </body>
     </html>
   );
