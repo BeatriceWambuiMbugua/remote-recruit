@@ -8,14 +8,14 @@ const Navbar = () => {
       <div className="flex items-center justify-between">
         <Image src="/logo.webp" alt="logo" width={123} height={50} />
         <div className="flex items-center gap-4">
-          <Link href="/auth" className="text-neutral-50 font-medium" aria-label="Sign In">
+          <Link href="#" className="text-neutral-50 font-medium" aria-label="Sign In">
             Sign In
           </Link>
           <Button
             asChild
             className="bg-[#4DA8CCE5] hover:bg-[#4DA8CCE5]/90 font-medium"
           >
-            <Link href="/auth" aria-label="Sign up">Sign Up</Link>
+            <Link href="#" aria-label="Sign up">Sign Up</Link>
           </Button>
         </div>
       </div>
